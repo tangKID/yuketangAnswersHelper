@@ -43,8 +43,8 @@ def server_monitor(refresh_rate, task):
 
 
 if __name__ == '__main__':
-    stu_username = '13955114261'  # 必须是手机号
-    stu_password = 'Kid11111111'  # 绑定手机号的密码
+    stu_username = ''  # 必须是手机号
+    stu_password = ''  # 绑定手机号的密码
     CHROME_DRIVER = r"E:\chromedriver.exe"  # 需要自己下载驱动
     task = StuLogin(CHROME_DRIVER, stu_username, stu_password)
     print('开启浏览器')
